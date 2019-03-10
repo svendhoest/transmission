@@ -1,2 +1,3 @@
-from  linuxserver/docker-transmission
+from  linuxserver/transmission
+RUN mkdir /incomplete
 VOLUME /incomplete
